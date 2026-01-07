@@ -1,5 +1,9 @@
 # ssh-wol-proxy
 
+[mop](https://github.com/simonamdev/mop) is the successor of ssh-wol-proxy. It does everything ssh-wol-proxy does and more.
+
+## Original readme
+
 A proxy for SSH which will send a wake-on-lan (WOL) packet on attempted connection. Useful to start a server that may be offline when using a tool such as remote development in VS Code.
 
 Confgiure it with env vars such as follows, replacing the following examples with values relevant to your setup:
